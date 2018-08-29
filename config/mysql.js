@@ -5,7 +5,7 @@
 *
 */
 var mysql           = require('mysql');
-var connectString   = {host: 'localhost', user: 'root', password: 'Formiga16@', database: 'contextlms_lformiga'};
+var connectString   = {host: 'us-cdbr-iron-east-01.cleardb.net', user: 'ba0879772025da', password: '7851ecf0', database: 'heroku_02cbd90d63f0ef5'};
 var db              = mysql.createConnection(connectString);
 
 module.exports = () => {
