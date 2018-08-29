@@ -9,7 +9,8 @@ var app				= require('./config/express.js')();
 var database		= require('./config/mysql.js')();
 
 function repeatCon() {
-    database = require('./config/mysql.js')();
+	database = require('./config/mysql.js')();
+	console.log("Reconnecting Database...");
     setTimeout(repeatCon, 5000);
 }
 
