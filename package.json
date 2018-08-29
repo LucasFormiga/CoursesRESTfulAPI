@@ -1,0 +1,21 @@
+{
+  "name": "desafio-backend-lucasformiga",
+  "version": "1.0.0",
+  "description": "REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/contextlms/desafio-backend-lucasformiga.git"
+  },
+  "author": "Lucas Formiga",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/contextlms/desafio-backend-lucasformiga#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}
