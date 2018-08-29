@@ -23,7 +23,7 @@ var createRoute		= require('./routes/create.js')(app, database);
 /* -------------------------------------- */
 /* ------------ STARTUP PRC ------------- */
 /* -------------------------------------- */
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
 	console.log('Ok, app is up.');
 });
 
