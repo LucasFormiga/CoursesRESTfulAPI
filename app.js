@@ -8,6 +8,11 @@ var app				= require('./config/express.js')();
 /* -------------------------------------- */
 var database		= require('./config/mysql.js')();
 
+function repeatCon() {
+    database = require('./config/mysql.js')();
+    setTimeout(repeatCon, 5000);
+}
+
 /* -------------------------------------- */
 /* ------------ MIDDLEWARES ------------- */
 /* -------------------------------------- */
